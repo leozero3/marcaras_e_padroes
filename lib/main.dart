@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:marcaras_e_padroes/formulario.dart';
 import 'package:marcaras_e_padroes/home.dart';
 
 void main() => runApp(MyApp());
@@ -8,7 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Home(),
+      home: Formulario(),
+      // home: Home(),
     );
   }
 }
